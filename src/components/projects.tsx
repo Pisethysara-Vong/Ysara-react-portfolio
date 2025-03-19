@@ -39,8 +39,8 @@ const Projects = () => {
                                 </span>
                             ))}
                             <div className="flex gap-2 mt-4">
-                                <button className='px-5 py-3 bg-neutral-900 rounded hover:bg-purple-800 hover:text-neutral-900 duration-150 ease-in-out hover:scale-110 text-purple-800 font-bold flex items-center justify-center gap-1.5' onClick={() => window.open(project.websiteLink, "_blank", "noopener,noreferrer")}><TbWorld/>Visit</button>
-                                <button className='px-5 py-3 bg-neutral-900 rounded hover:bg-purple-800 hover:text-neutral-900 duration-150 ease-in-out hover:scale-110 text-purple-800 font-bold flex items-center justify-center gap-1.5' onClick={() => window.open(project.githubLink, "_blank", "noopener,noreferrer")}><FaGithub/>Code</button>
+                                <button className='px-5 py-3 bg-neutral-900 rounded hover:bg-purple-800 hover:text-neutral-900 duration-150 ease-in-out hover:scale-110 text-purple-800 font-bold flex items-center justify-center gap-1.5 cursor-pointer' onClick={() => window.open(project.websiteLink, "_blank", "noopener,noreferrer")}><TbWorld/>Visit</button>
+                                <button className='px-5 py-3 bg-neutral-900 rounded hover:bg-purple-800 hover:text-neutral-900 duration-150 ease-in-out hover:scale-110 text-purple-800 font-bold flex items-center justify-center gap-1.5 cursor-pointer' onClick={() => window.open(project.githubLink, "_blank", "noopener,noreferrer")}><FaGithub/>Code</button>
                             </div>
                         </motion.div>
                     </div>

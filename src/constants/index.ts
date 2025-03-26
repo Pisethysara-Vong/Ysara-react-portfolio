@@ -88,7 +88,7 @@ export const PROJECTS: Project[] = [
     description:
       "A Chrome extenstion that limits access to Youtube with a countdown timer then asks the user to complete a general knowledge quiz to regain access.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    websiteLink: "https://cafe-plain.vercel.app/",
+    websiteLink: "https://chromewebstore.google.com/detail/youtube-time-limiter/ilgfjodcifokdplbcpbdelcbjhapicdl",
     githubLink: "https://github.com/Pisethysara-Vong/Youtube-Time-Limiter"
   },
   {
@@ -97,8 +97,8 @@ export const PROJECTS: Project[] = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind CSS", "React"],
-    websiteLink: "#",
-    githubLink: "#"
+    websiteLink: "https://www.ysara.site/",
+    githubLink: "https://github.com/Pisethysara-Vong/Ysara-react-portfolio"
   },
 ];
 

@@ -26,6 +26,8 @@ import cafePlain from "../assets/projects/cafe plain.png";
 import joubJum from "../assets/projects/joub jum.png";
 import youtubeLimiter from "../assets/projects/youtube limiter.png";
 import portfolioWebsite from "../assets/projects/portfolio.png";
+import canalStreetMarket from "../assets/projects/Canal Street.png";
+
 
 
 export const HERO_CONTENT: string = `I am a 19 years old, 3rd year student attending American University of Phnom Penh. I've always been mesmerized by the process of creation ever since I was a kid which has lead me to pursue Software Development as a career.`;
@@ -99,6 +101,15 @@ export const PROJECTS: Project[] = [
     technologies: ["HTML", "Tailwind CSS", "React"],
     websiteLink: "https://www.ysara.site/",
     githubLink: "https://github.com/Pisethysara-Vong/Ysara-react-portfolio"
+  },
+  {
+    title: "Canal Street Market",
+    image: canalStreetMarket,
+    description:
+      "A website that showcase the Canal Street Market, a vibrant marketplace in New York City, featuring food vendors, retail shops, and community events.",
+    technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion", "TypeScript"],
+    websiteLink: "https://canal-street-market-website.vercel.app/",
+    githubLink: "https://github.com/Pisethysara-Vong/Canal-Street-Market-website"
   },
 ];
 

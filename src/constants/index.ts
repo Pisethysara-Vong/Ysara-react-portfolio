@@ -67,6 +67,15 @@ export const EXPERIENCES: Experience[] = [
 
 export const PROJECTS: Project[] = [
   {
+    title: "Canal Street Market",
+    image: canalStreetMarket,
+    description:
+      "A website that showcase the Canal Street Market, a vibrant marketplace in New York City, featuring food vendors, retail shops, and community events.",
+    technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion", "TypeScript"],
+    websiteLink: "https://canal-street-market-website.vercel.app/",
+    githubLink: "https://github.com/Pisethysara-Vong/Canal-Street-Market-website"
+  },
+  {
     title: "Cafe Plain",
     image: cafePlain,
     description:
@@ -101,15 +110,6 @@ export const PROJECTS: Project[] = [
     technologies: ["HTML", "Tailwind CSS", "React"],
     websiteLink: "https://www.ysara.site/",
     githubLink: "https://github.com/Pisethysara-Vong/Ysara-react-portfolio"
-  },
-  {
-    title: "Canal Street Market",
-    image: canalStreetMarket,
-    description:
-      "A website that showcase the Canal Street Market, a vibrant marketplace in New York City, featuring food vendors, retail shops, and community events.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion", "TypeScript"],
-    websiteLink: "https://canal-street-market-website.vercel.app/",
-    githubLink: "https://github.com/Pisethysara-Vong/Canal-Street-Market-website"
   },
 ];
 
